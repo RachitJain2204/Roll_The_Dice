@@ -1,6 +1,13 @@
-*.dart linguist-detectable=true
+# Native platform folders
 android/** linguist-vendored
 ios/** linguist-vendored
 macos/** linguist-vendored
 windows/** linguist-vendored
 linux/** linguist-vendored
+
+# Web build and static files
+web/** linguist-vendored
+build/** linguist-generated
+
+# Explicitly mark Dart files as detectable
+*.dart linguist-detectable=true
